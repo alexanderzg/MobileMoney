@@ -1,0 +1,64 @@
+
+/*body style customization*/
+body{
+    background:#f9f9f9;
+}
+
+/*linkedin button styling*/
+.linkedin-btn{
+    background-color: #0274b3;
+    opacity: 0.9 !important;
+    color: #D3D3D3;
+}
+
+/*linkedin button hover styling*/
+.linkedin-hover :hover{
+    opacity: 1.0 !important;
+    color: white !important;
+}
+
+/*Nav-item hover styling*/
+.nav-item :hover{
+    color: #F0F0F0 !important;
+}
+
+/*Home icon styling*/
+.home-custom{
+    color: #D3D3D3 !important;
+}
+
+/*Home icon hover styling*/
+.home-custom :hover{
+    color: white !important;
+    cursor: pointer;
+}
+
+/*Divider line for drop-down menu*/
+.divider{
+    background-color: white;
+}
+
+/*Card height styling*/
+.fill-height{
+    height: 100% !important;
+}
+
+/*Home icon size customization*/
+.home-size{
+    font-size: 30px; 
+}
+/* Remove background color */
+button, .button:hover, .button:active, .button:active:focus, .button:visited, .button:focus { outline: none!important; }
+
+button:focus {
+    outline: none !important;
+    border: 0px!important;
+  }
+
+/*Responsive styling when mobile view*/
+@media screen and (max-width:500px){
+    /*Page font size*/
+    .responsive-font{
+        font-size: .8rem;
+    }
+}
